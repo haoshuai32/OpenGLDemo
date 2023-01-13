@@ -6,6 +6,8 @@
 //
 
 #import "ViewController.h"
+#import <GLKit/GLKit.h>
+#import "HSMapView.h"
 
 @interface ViewController ()
 
@@ -15,8 +17,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    HSMapView *view = [HSMapView new];
+    view.frame = UIScreen.mainScreen.bounds;
+    [view draw:self.view];
+    [self.view addSubview:view];
     // Do any additional setup after loading the view.
 }
+
+
+
 
 
 @end

@@ -14,6 +14,7 @@
 		2EDF2B2426F37D1B0035305C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EDF2B2326F37D1B0035305C /* Assets.xcassets */; };
 		2EDF2B2726F37D1B0035305C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EDF2B2526F37D1B0035305C /* LaunchScreen.storyboard */; };
 		2EDF2B2A26F37D1B0035305C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDF2B2926F37D1B0035305C /* main.m */; };
+		2EDF2B3226F37D360035305C /* HSMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDF2B3126F37D360035305C /* HSMapView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		2EDF2B2626F37D1B0035305C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2EDF2B2826F37D1B0035305C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2EDF2B2926F37D1B0035305C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2EDF2B3026F37D360035305C /* HSMapView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSMapView.h; sourceTree = "<group>"; };
+		2EDF2B3126F37D360035305C /* HSMapView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSMapView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 				2EDF2B2526F37D1B0035305C /* LaunchScreen.storyboard */,
 				2EDF2B2826F37D1B0035305C /* Info.plist */,
 				2EDF2B2926F37D1B0035305C /* main.m */,
+				2EDF2B3026F37D360035305C /* HSMapView.h */,
+				2EDF2B3126F37D360035305C /* HSMapView.m */,
 			);
 			path = OpenGLDemo;
 			sourceTree = "<group>";
@@ -147,6 +152,7 @@
 			files = (
 				2EDF2B1F26F37D180035305C /* ViewController.m in Sources */,
 				2EDF2B1926F37D180035305C /* AppDelegate.m in Sources */,
+				2EDF2B3226F37D360035305C /* HSMapView.m in Sources */,
 				2EDF2B2A26F37D1B0035305C /* main.m in Sources */,
 				2EDF2B1C26F37D180035305C /* SceneDelegate.m in Sources */,
 			);
